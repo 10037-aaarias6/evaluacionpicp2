@@ -1,0 +1,52 @@
+/* adoptionlist.css */
+
+.adoption-list-container {
+    color: #000; /* Color de la fuente negro */
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border: 1px solid #ddd; /* Borde delgada gris */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .adoption-list-container h2 {
+    color: #333; /* Color de título más oscuro */
+  }
+  
+  .adoption-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .adoption-list-container li {
+    margin-bottom: 8px;
+  }
+  
+  /* Estilos adicionales si es necesario */
+  /* adoptionlist.css */
+
+/* adoptionlist.css */
+
+/* Estilo base del contenedor del enlace */
+.div-container {
+    display: inline-block;
+    border: 1px solid #ccc; /* Borde de la caja */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo base del enlace */
+a.book-link {
+    text-decoration: none;
+}
+
+/* Estilo al pasar el mouse sobre el contenedor */
+.div-container:hover {
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilo al pasar el mouse sobre el enlace */
+a.book-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

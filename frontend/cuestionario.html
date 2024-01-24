@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación Académica</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="cuestionario.css">
+</head>
+<body>
+    <h1>Evaluación Académica - EDO y Álgebra</h1>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+
+        <label for="nivel">Nivel Académico:</label>
+        <select id="nivel" name="nivel" required>
+            <option value="">Selecciona tu nivel académico</option>
+            <option value="pregrado">Pregrado</option>
+            <option value="maestria">Maestría</option>
+            <option value="doctorado">Doctorado</option>
+        </select>
+
+        <label for="tema">Tema de Interés (EDO o Álgebra):</label>
+        <input type="text" id="tema" name="tema" required>
+
+        <label for="comentarios">Comentarios adicionales:</label>
+        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+        <!-- Preguntas con respuestas de selección -->
+        <label for="pregunta1">Pregunta 1: ¿Cuál de las siguientes es una Ecuación Diferencial Ordinaria (EDO)?</label>
+        <select id="pregunta1" name="pregunta1" required>
+            <option value="">Selecciona una opción</option>
+            <option value="edo1">y'' + y = 0</option>
+            <option value="edo2">y = mx + b</option>
+            <option value="edo3">y = e^x</option>
+            <option value="edo4">y = sin(x)</option>
+        </select>
+
+        <label for="pregunta2">Pregunta 2: ¿Qué método se utiliza para resolver una EDO de primer orden lineal?</label>
+        <select id="pregunta2" name="pregunta2" required>
+            <option value="">Selecciona una opción</option>
+            <option value="metodo1">Método de separación de variables</option>
+            <option value="metodo2">Método de sustitución</option>
+            <option value="metodo3">Método de reducción de orden</option>
+            <option value="metodo4">Método de Laplace</option>
+        </select>
+
+        <label for="pregunta3">Pregunta 3: ¿Cuál es el resultado de la siguiente operación algebraica?</label>
+        <select id="pregunta3" name="pregunta3" required>
+            <option value="">Selecciona una opción</option>
+            <option value="algebra1">(3x + 2) * (2x - 5)</option>
+            <option value="algebra2">(x^2 + 4x + 4)</option>
+            <option value="algebra3">(2x - 3)^2</option>
+            <option value="algebra4">(x^2 - 1) / (x - 1)</option>
+        </select>
+
+        <label for="pregunta4">Pregunta 4: ¿Cuál es la solución general de la siguiente EDO de segundo orden?</label>
+        <select id="pregunta4" name="pregunta4" required>
+            <option value="">Selecciona una opción</option>
+            <option value="solucion1">y'' + 2y' + y = 0</option>
+            <option value="solucion2">y'' - y = 0</option>
+            <option value="solucion3">y'' + y = e^x</option>
+            <option value="solucion4">y'' - 2y' + y = x^2</option>
+        </select>
+
+        <label for="pregunta5">Pregunta 5: ¿Cuál de las siguientes ecuaciones algebraicas tiene raíces complejas conjugadas?</label>
+        <select id="pregunta5" name="pregunta5" required>
+            <option value="">Selecciona una opción</option>
+            <option value="raices1">x^2 + 4 = 0</option>
+            <option value="raices2">x^2 - 6x + 13 = 0</option>
+            <option value="raices3">x^2 + 2x + 1 = 0</option>
+            <option value="raices4">x^2 - 3x + 2 = 0</option>
+        </select>
+
+        <button type="submit" onclick="finalizarEvaluacion()">Enviar Evaluación</button>
+
+        <script>
+            function finalizarEvaluacion() {
+                alert("Evaluación finalizada");
+                // Cierra la pestaña actual
+                window.close();
+            }
+        </script>
+    </form>
+</body>
+</html>

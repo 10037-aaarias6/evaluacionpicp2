@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* ... (estilos anteriores) */
+
+.AvailableList {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: #000; /* Color de la fuente negro */
+    background-color: #f9f9f9; /* Fondo gris claro para mejorar la visibilidad */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos específicos para los emojis */
+  td:first-child::before {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    content: '\1F4D6'; /* Emoji para evaluaciones, exámenes y proyectos 📖 */
+    margin-right: 5px;
+  }
+  
+  td:last-child::before {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    content: '\1F464'; /* Emoji para el docente 👤 */
+    margin-right: 5px;
+  }
+  
+  /* styles.css */
+
+/* ... (estilos anteriores) */
+
+.AvailableList ul,
+.AvailableList li {
+  color: #000; /* Color de la fuente negro */
+}
+
+.AvailableList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.AvailableList li {
+  margin-bottom: 8px;
+}
+
+/* Estilo específico para el emoji en la lista de evaluaciones, exámenes y proyectos disponibles */
+.AvailableList ul:first-child li::before {
+  content: '\1F4D6'; /* Emoji para evaluaciones, exámenes y proyectos 📖 */
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+/* listdisponibilidad.css */
+
+/* listdisponibilidad.css */
+
+.list-container {
+    color: #000; /* Color de la fuente negro */
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border: 1px solid #ddd; /* Borde delgada gris */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-container li {
+    margin-bottom: 8px;
+  }
+  
+  /* Estilos adicionales si es necesario */
+  
